@@ -1,0 +1,81 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-lightblue:#2a2a40;
+    --color-green: #37af65;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    background-color: var(--color-darkblue);
+}
+header{
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+form{
+    width: 50rem;
+    margin: 0 auto;
+    font-size: large;
+    
+}
+
+fieldset{
+    padding: 1rem;
+    border-radius: 0.2rem;
+    margin: 1rem;
+    align-items: center;
+    border: 0;
+    background-color: var(--color-lightblue);
+}
+button{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-left: 0 auto;
+    
+}
+textarea{
+    width: 100%;
+}
+label{
+    display: block;
+    padding: 0.5rem 0;
+}
+input[type="text"], input[type="email"], input[type="number"], select{
+    height: 2.3rem;
+    width: 100%;
+    font-size: large;
+    border-radius: 0.25rem;
+    border: 0;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 1.2rem;
+}
+
+p.desc{
+    padding: 0.5rem 0;  
+}
+#description{
+    font-style: italic;
+}
+@media (max-width:830px){
+    form{
+        width: 100%;
+    }
+}
