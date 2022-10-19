@@ -94,7 +94,9 @@ a{
 }
 
 @media (max-width:900px) {
-
+    header{
+        font-size: 0.9rem;
+    }
     .wrapper{
         width: 100%;
         padding: 1rem; 
