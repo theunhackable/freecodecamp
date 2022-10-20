@@ -55,6 +55,9 @@ h1{
     width: 60rem;
     padding-left: 21rem;
 }
+p a{
+    color: var(--light-pink);
+}
 
 .main-section code{
     font-size: 1rem;
