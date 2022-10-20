@@ -8,6 +8,7 @@
 }
 html{
     font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
 }
 body{
     display: block;
@@ -57,7 +58,10 @@ h1{
 }
 p a{
     color: var(--light-pink);
+
 }
+
+
 
 .main-section code{
     font-size: 1rem;
@@ -87,6 +91,7 @@ p a{
     code{
         overflow:auto;
     }
+   
     
 }
 
