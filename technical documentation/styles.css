@@ -4,6 +4,8 @@
     --light-pink: #FFCACA;
     --light-pink2: #FFECEF;
     --white-color: white;
+    --wrong-color :  #ff5656;
+    --correct-color : #57f557;
 
 }
 html{
@@ -93,8 +95,13 @@ p a{
     }
     code{
         overflow:auto;
-    }
-   
-    
+    }  
 }
-
+.wrongMethod
+{
+    color :var(--wrong-color)
+}
+.correctMethod
+{
+    color :var(--correct-color)
+}
