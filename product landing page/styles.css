@@ -156,7 +156,7 @@ section h1{
     /* display: block; */
     background-color: #F7CCAC;
     color: #191722;
-    padding: 1rem;
+    padding: 0.8rem;
 
     border: 0;
     border-radius: 0.2rem;
@@ -185,6 +185,7 @@ section h1{
     }
     #nav-bar a{
         font-size: 0.8rem;
+        padding: 0.8rem;
     }
 
 }
