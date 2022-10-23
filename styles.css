@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --bg-color: #2C3639;
     --bg-color2: #3F4E4F;
@@ -10,6 +14,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     
 }
+
 
 nav{
 
@@ -38,3 +43,4 @@ nav a{
         width: 90%;
     }
 }
+
