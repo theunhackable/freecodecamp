@@ -89,7 +89,7 @@ body{
     color: var(--light-brown-color);
 }
 /* First section */
-#welcome-section{
+#welcome-section, #contact-section{
     font-size: 175%;
     display: flex;
     flex-direction: column;
@@ -99,6 +99,8 @@ body{
 
 /* Projects section */
 .section-a{
+    width: 20rem;
+    margin: 0 auto;
     display: block;
     background-color: var(--light-green-color);
     padding: 1rem;
@@ -169,6 +171,27 @@ body{
 
 
 }
+/* Contacts */
+.profiles-container{
+    padding: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}
+.profile{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+.profile img{
+    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
 
 @media (max-width:1600px) {
     .projects-container{
@@ -180,8 +203,11 @@ body{
 @media (max-width:980px) {
     .projects-container{
         grid-template-columns: auto;
-
-
+    }
+    .profiles-container{
+        flex-direction: column;
+        align-items: flex-start;
+    
     }
     
 }
@@ -205,6 +231,9 @@ body{
     }
     .project{
         width: 90%;
+    }
+    .section-a{
+        width: 80%;
     }
     
 }
