@@ -162,6 +162,7 @@ body{
     color: white;
     background-color: var(--dark-green-color);
     padding: 1rem;
+    border-radius: 0.5rem;
 
 
 
