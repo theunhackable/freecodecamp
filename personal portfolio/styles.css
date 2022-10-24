@@ -24,8 +24,9 @@ html{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: var(--dark-green-color);
+    background-color: var(--dark-green-color);
     color: white;
+
     
 }
 
@@ -40,15 +41,21 @@ body{
     box-shadow: 0px 0px 20px black;
 
 }
+
+
 #main{
-    top:0;
+    
     background-color: var(--dark-green-color);
+
 }
 #header-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
+}
+#navbar{
+    top:0;
 }
 #header-container a{
     
@@ -81,7 +88,6 @@ body{
     color: var(--light-bg-color);
     border-radius: 1rem;
     box-shadow: 0px 0px 20px black;
-
 }
 
 .section:nth-of-type(even){
@@ -95,6 +101,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(./imgs/tree-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size:cover; */
+
 }
 
 /* Projects section */
@@ -115,7 +126,7 @@ body{
 
 }
 
-.projects-container{
+.project-tile{
     padding: 3rem;
     text-align: center;
     display: grid;
@@ -204,14 +215,14 @@ body{
 
 
 @media (max-width:1600px) {
-    .projects-container{
+    .project-tile{
         grid-template-columns: auto auto;
     }
     
 }
 
 @media (max-width:980px) {
-    .projects-container{
+    .project-tile{
         grid-template-columns: auto;
     }
     .profiles-container{
@@ -233,7 +244,7 @@ body{
         padding: 1rem;
         border-radius: 0.5rem;
     }
-    .projects-container{
+    .project-tile{
 
         padding: 3rem 0;
         gap: 3rem 0rem;
