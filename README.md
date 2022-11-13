@@ -9,8 +9,10 @@ Webpages are hosted on Github Pages.
 
 
 Here are the links to individual pages:
-- [Survey Form](https://theunhackable.github.io/freecodecamp/freecodecamp%20form/index.html).
-- [Tribute Page](https://theunhackable.github.io/freecodecamp/tribute%20page/index.html).
-- [Technical Documentation Page](https://theunhackable.github.io/freecodecamp/technical%20documentation/index.html).
-- [Product Landing Page](https://theunhackable.github.io/freecodecamp/product%20landing%20page/index.html).
-- [Personal Portfolio](https://theunhackable.github.io/freecodecamp/personal%20portfolio/index.html).
+- <a href="https://theunhackable.github.io/freecodecamp/freecodecamp%20form/index.html" target="_blank">Survey Form</a>.
+- <a href="https://theunhackable.github.io/freecodecamp/tribute%20page/index.html" target="_blank">Tribute Page</a>.
+- <a href="https://theunhackable.github.io/freecodecamp/technical%20documentation/index.html" target="_blank">Technical Documentation Page</a>.
+- <a href="https://theunhackable.github.io/freecodecamp/product%20landing%20page/index.html" target="_blank">Product Landing Page</a>.
+- <a href="https://theunhackable.github.io/freecodecamp/personal%20portfolio/index.html" target="_blank">Personal Portfolio</a>.
+
+
