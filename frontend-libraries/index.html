@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: black;
+}
+    </style>
+    <script>
+        function handleChange(){
+            let data = {}
+            fetch('https://api.quotable.io/random').then((response) =>{
+                console.log(response)
+                return response.text();
+            }).then(response => {
+                data = JSON.parse(response);
+                console.log(data.content)
+            });
+            console.log(data);
+        }
+    </script>
+</head>
+<body>
+    <h1>
+        Hello This is a random quote generator
+        adfadsfadsadfadfadfadfa;dlkfaeiafndafaujdsfnadslgas;dfiajdhsfjasd;uf ioadsjf;asuj df
+    </h1>
+    <form>
+        <div
+            onclick=handleChange()
+        >Click me.... Close your eyes..... and miss me</div>
+        <div id="quote"></div>
+        <div id="author"></div>
+
+    </form>
+    
+</body>
+</html>
