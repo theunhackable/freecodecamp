@@ -3,7 +3,7 @@
 - These are the static template files I build during the **Responsive Web Design certification** from [freecodecamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/).
 
 - I used **HTML** and **CSS** to develop **responsive webpages** 
-
+- I used **jQuery**, **reactJs**, **react-redux**, **SASS** for  **frontend libraries**
 Webpages are hosted on Github Pages. 
 [Click here](https://theunhackable.github.io/freecodecamp/index.html) to view the list of templates. 
 
