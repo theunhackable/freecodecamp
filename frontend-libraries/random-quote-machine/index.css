@@ -1,0 +1,50 @@
+body {
+  background-color: #222;
+}
+#quote-box {
+  background-color: #ddd;
+  color: #222;
+  margin: 25vh auto 0 auto;
+  padding: 2rem;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px black;
+}
+#text {
+  font-size: 40px;
+  text-align: center;
+}
+
+#author {
+  margin-left: 60%;
+  font-size: 20px;
+}
+
+#new-quote {
+  display: inline;
+  padding: 1rem;
+  width: 50%;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+}
+#new-quote:hover {
+  background-color: #eee;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px black;
+}
+#tweet-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  display: block;
+}
+svg:hover {
+  height: 30px;
+  width: 30px;
+}
