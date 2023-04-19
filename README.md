@@ -16,5 +16,5 @@ Here are the links to individual pages:
     - <a href="https://theunhackable.github.io/freecodecamp/product%20landing%20page/index.html" target="__blank">Product Landing Page</a>.
     - <a href="https://theunhackable.github.io/freecodecamp/personal%20portfolio/index.html" target="__blank">Personal Portfolio</a>.
 - Frontend Libraries(jQuery, ReactJS, Redux, react redux)
-    - <a href="https://theunhackable.github.io/freecodecamp/frontend-libraries/random-quote-machine/index.html" target="__blank">Random Quote Machine(jQuery, HTML, CSS, JavaScript)</a>. 
+    - <a href="https://theunhackable.github.io/freecodecamp/frontend-libraries/random-quote-machine/index.html" target="__blank">Random Quote Machine</a> (jQuery, HTML, CSS, JavaScript). 
 
