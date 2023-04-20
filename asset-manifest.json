@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/css/main.760be061.css",
+    "main.js": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/js/main.a1900f2d.js",
+    "static/js/787.e4a8695d.chunk.js": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/js/787.e4a8695d.chunk.js",
+    "index.html": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/index.html",
+    "main.760be061.css.map": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/css/main.760be061.css.map",
+    "main.a1900f2d.js.map": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/js/main.a1900f2d.js.map",
+    "787.e4a8695d.chunk.js.map": "/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview/static/js/787.e4a8695d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.760be061.css",
+    "static/js/main.a1900f2d.js"
+  ]
+}
