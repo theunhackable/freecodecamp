@@ -2,7 +2,7 @@
   "name": "markdown-preview",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://theunhackable.github.io/freecodecamp/frontend-libraries/",
+  "homepage":"https://theunhackable.github.io/freecodecamp/frontend-libraries/markdown-previewer/markdown-preview",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
